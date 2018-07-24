@@ -14,6 +14,22 @@
 	.job-item-index{
 		margin-right: 20px;
 	}
+	#sign-in-gg{
+		background: black;
+	}
+	#sign-in-fb{
+		font-size: 13px;
+		color: white;
+		padding-top: 13px;
+		text-decoration: none;
+		font-weight: bold;
+		background:#CC3E2F;
+		border-radius: 7px;
+		height: 50px;
+	}
+	.header{
+		height: auto;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.searh-index>div>div{
@@ -43,7 +59,7 @@
 /* header*/
 .header{
 	background: #221f20;
-	height: 70px;
+	height: 50px;
 	padding-top: 10px;
 }
 .header-index{
@@ -514,4 +530,193 @@
 .nav-tabs>li>a:hover{
     font-size: 18px;
      padding: 15px;
+}
+#sign-in-gg{
+	font-size: 16px;
+	color: white;
+	padding-top: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	background:#CC3E2F;
+	border-radius: 7px;
+	height: 50px;
+}#sign-in-gg>i{
+	padding-top: 3px;
+	font-size: 25px;
+	color: white;
+}
+#sign-in-fb{
+	font-size: 16px;
+	color: white;
+	padding-top: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	background:#4C66A4;
+	border-radius: 7px;
+	height: 50px;
+}#sign-in-fb>i{
+	padding-top: 3px;
+	font-size: 25px;
+	color: white;
+}
+#home>h4{
+	padding-bottom: 30px;
+}
+#home>form>a{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#home>form>p{
+	padding: 5px;
+}
+#menu1>form>a{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#menu1>form>p{
+	padding: 5px;
+}
+/* cong ty IT hang dau */
+.ntt{
+	background: #e9e9e9;
+	padding-bottom: 40px;
+}
+.search>h2{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.search-job-ntt{
+	padding-bottom: 30px;
+	padding-top: 60px;
+	margin-left: -15px;
+}
+.btn-submit{
+	height: 55px;
+	color: white;
+	font-weight: bold;
+	background-color:#CC3E2F; 
+}
+.ntt-list>h2{
+	padding-top: 70px;
+}
+.ntt-list>h4{
+	padding-bottom: 40px;
+}
+.ntt-list>h4>a{
+	text-decoration: none;
+	color: black;
+}
+.ntt-list>h4>a:hover{
+	color: #888;
+}
+.ntt-item{
+	margin-left: 5px;margin-right: 5px;
+	background: white;
+}
+.companies {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: minmax(321px, 1fr) [3];
+    grid-template-columns: repeat(3, minmax(321px, 1fr));
+    grid-gap: 30px;
+}
+#featured-company{
+	text-decoration: none;
+}
+.featured-company {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #333;
+    border: 1px solid #D8D8D8;
+}
+.company__banner img {
+    width: 100%;
+}
+.company__info {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: white;
+}
+.company__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.company__logo {
+    position: relative;
+    top: -16px;
+    padding: 4px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #D2D2D2;
+    border-radius: 2px;
+}
+.company_name{
+	font-weight: bold;
+	font-size: 17px;
+	margin: 0 10px;
+	color: #888;
+	max-height: 50px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+     margin-top: 10px;
+}
+.company_star{
+	margin-left: auto;
+    margin-top: 10px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 55px;
+    flex: 0 0 55px;
+}
+.company__star-rate{
+	font-size: 18px;
+	font-weight: bold;
+	color: #888
+}
+.ion-ios-star.blue{
+	padding: 5px;
+	border-radius: 4px;
+    background: #11C1F7;
+}
+.company_desc{
+	font-size: 15px;
+	color: #888;
+    min-height: 39px;
+}
+.company__footer {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.company__footer-jobs {
+    margin-left: auto;
+    color: #EA2635;
+}
+.search-name-com{
+	margin-top: 30px;
+	background: white;
+	padding: 20px;
+}
+.search-name-com>h4>a{
+	color: #888;
+	text-decoration: none;
+}
+.search-name-com>h4{
+	color: #888;
+}
+.search-name-com>h4>a:hover{
+	color: #EA2635
 }
